@@ -87,8 +87,6 @@ function Aiming.UpdateFOV()
     circle.Position = Vector2new(Mouse.X, Mouse.Y + GetGuiInset(GuiService).Y)
     circle.NumSides = Aiming.FOVSides
     circle.Color = Aiming.FOVColour
-    circle.Transparency = Aiming.FOVTransparency
-    circle.Filled = Aiming.Filled
  
     -- // Return circle
     return circle
